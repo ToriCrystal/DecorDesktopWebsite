@@ -1,0 +1,15 @@
+<section class="container col-10 pt-5 pb-5">
+    <div class="showcase">
+        <h1 class="text-center">Community Showcase</h1>
+        <div class="d-flex justify-content-center row">
+            <div class="review text-center text-white col-md-2 pb-3 pt-3" ng-repeat="ex in Example">
+                <div class="inner">
+                    <div class="inner">
+                        <img src="images/{{ex.Image}}" alt="" class="w-100" srcset="">
+                    </div>
+                    <p>{{ex.Desc}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
